@@ -1662,3 +1662,15 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+#headshot {
+	float: left;
+	width: 50%;
+	margin-right: 1rem;
+}
+
+.skills-box {
+	font-size: 5rem;
+	
+
+}
