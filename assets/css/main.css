@@ -1666,11 +1666,13 @@ input, select, textarea {
 #headshot {
 	float: left;
 	width: 50%;
+	margin: 0 1rem 1rem 0;
 	margin-right: 1rem;
+	clear: right;
 }
 
 .skills-box {
 	font-size: 5rem;
-	
+
 
 }
