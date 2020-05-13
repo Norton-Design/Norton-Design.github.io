@@ -604,6 +604,8 @@ input, select, textarea {
 		text-decoration: none;
 		border-bottom: none;
 		position: relative;
+		display: flex;
+		align-items: center;
 	}
 
 		.icon:before {
@@ -1297,7 +1299,7 @@ input, select, textarea {
 			border: solid 1px #ffffff;
 			border-radius: 100%;
 			display: flex;
-    	align-items: center;
+    		align-items: center;
 			justify-content: center;
 		}
 
@@ -1674,4 +1676,12 @@ input, select, textarea {
 .skills-box {
 	font-size: 4rem;
 	text-align: center;
+}
+
+#logo:hover {
+	background-color: rgba(255, 255, 255, 0.075);
+	-moz-transition: background-color 0.2s ease-in-out;
+	-webkit-transition: background-color 0.2s ease-in-out;
+	-ms-transition: background-color 0.2s ease-in-out;
+	transition: background-color 0.2s ease-in-out;
 }
