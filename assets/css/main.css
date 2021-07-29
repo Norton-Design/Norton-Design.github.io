@@ -1685,3 +1685,39 @@ input, select, textarea {
 	-ms-transition: background-color 0.2s ease-in-out;
 	transition: background-color 0.2s ease-in-out;
 }
+
+#contact {
+	display: flex;
+	flex-direction: row;
+}
+
+#contact h3{
+	font-size: 1.3em;
+	padding: .5em 0 0 0;
+
+}
+
+#contact p:nth-of-type(2n+1) {
+	padding: 1em 0 0 0;
+	margin: 0;
+}
+
+#contact p:nth-of-type(2n) {
+	padding: 0 1em 0 0;
+	margin: 0;
+}
+
+#contact #contact-page-end {
+	padding: 0 1em 0 0;
+	margin: 0 0 2em 0;
+}
+
+#contact div {
+	display: flex;
+	flex-direction: column;
+}
+
+#contact .icons-div {
+	align-self: flex-end;
+	padding: 0 0 0 9em;
+}
