@@ -267,7 +267,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #b90000;}
     align-items: center;
     justify-content: center;
     position:relative;
-    background:url(../images/about/welcome-banner.jpg)no-repeat;
+    background:url(../images/about/IMG_3043.JPG)no-repeat;
     background-size:cover;
     background-position: center;
     height:800px;
@@ -283,6 +283,11 @@ nav.navbar.bootsnav .navbar-toggle i{color: #b90000;}
 }
 
 /*.header-text-area*/
+.header-text{
+    margin-top: 100px;
+    margin-left: 400px;
+}
+
 .header-text h2 {
     color: #fff;
     font-size: 54px;
@@ -394,7 +399,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #b90000;}
     color: #fff;
     display: inline-block;
     border: 2px solid;
-    margin-left: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     border-radius: 8px;
     width: 30px;
     height: 30px;
