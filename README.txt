@@ -1,18 +1,34 @@
-Personal site by Michael Norton
+-----------------------
+# README
+-----------------------
+Browny is a one page bootstrap 3 based resume/portfolio template.
+
+
+Template Info:
+-----------------------
+Name: 		Browny - Free Bootstrap One Page Portfolio Resume Tempalte
+Version: 	1.0
+Author: 	ThemeSINE
+Website: 	https://www.themesine.com/
+
+
+Changelog:
+-----------------------
+Version 1.0 14-05-2018
+- initial release 
+
 
 Credits:
-	Starting Template
-		Dimension by HTML5 UP
-		html5up.net | @ajlkn
-		Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-----------------------
+- Twitter Bootstrap http://getbootstrap.com
+- jQuery http://jquery.org
+- Modernizr https://modernizr.com/
+- Sticky.js http://stickyjs.com/
+- JQuery easing https://github.com/gdsmith/jquery.easing
+- Bootsnav http://bootsnav.danurstrap.com/
+- Pexels https://www.pexels.com/
+- Unsplash https://unsplash.com/
 
-	Background Image:
-		Ghostly International by Michael Cena
-
-	Icons:
-		Font Awesome (fontawesome.io)
-		Konpa Devicon (konpa.github.io/devicon/)
-
-	Other:
-		jQuery (jquery.com)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+License:
+-----------------------
+This template is under Free License - https://www.themesine.com/license/

@@ -1,438 +1,383 @@
-<!DOCTYPE HTML>
-<!--
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Michael Norton - Software Engineer</title>
-		<meta charset="utf-8" />
-		<meta name="description" content="Personal site for Michael Norton, Software Engineer">
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+<!doctype html>
+<html class="no-js" lang="en">
+
+    <head>
+        <!-- meta data -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+        <!--font-family-->
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;subset=devanagari,latin-ext" rel="stylesheet">
+        
+        <!-- title of site -->
+        <title>Michael Norton</title>
+
+        <!-- For favicon png -->
+		<link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/>
+       
+        <!--font-awesome.min.css-->
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
 		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-		<link rel="manifest" href="/site.webmanifest">
-		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-		<meta name="msapplication-TileColor" content="#da532c">
-		<meta name="theme-color" content="#ffffff">
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+		<!--flat icon css-->
+		<link rel="stylesheet" href="assets/css/flaticon.css">
 
-				<!-- Header -->
-					<header id="header">
-						<div class="logo" id="logo">
-							<!-- <span class="icon fa-gem"></span> -->
-							<a href="/assets/docs/Michael_Norton_Resume.pdf" class="icon brands" target="_blank"><span class="fas fa-laptop-code" style="font-size: 2rem;"></span></a>
-						</div>
-						<div class="content">
-							<div class="inner">
-								<h1>Michael Norton</h1>
-								<p>Software engineering set on making your dreams come true...</p>
+		<!--animate.css-->
+        <link rel="stylesheet" href="assets/css/animate.css">
+
+        <!--owl.carousel.css-->
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+		<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+		
+        <!--bootstrap.min.css-->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		
+		<!-- bootsnav -->
+		<link rel="stylesheet" href="assets/css/bootsnav.css" >	
+        
+        <!--style.css-->
+        <link rel="stylesheet" href="assets/css/style.css">
+        
+        <!--responsive.css-->
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		
+        <!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+	
+	<body>
+		<!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+		
+		<!-- top-area Start -->
+		<header class="top-area">
+			<div class="header-area">
+				<!-- Start Navigation -->
+			    <nav class="navbar navbar-default bootsnav navbar-fixed dark no-background">
+
+			        <div class="container">
+
+			            <!-- Start Header Navigation -->
+			            <div class="navbar-header">
+			                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+			                    <i class="fa fa-bars"></i>
+			                </button>
+			                <a class="navbar-brand" href="index.html">Michael Norton</a>
+			            </div><!--/.navbar-header-->
+			            <!-- End Header Navigation -->
+
+			            <!-- Collect the nav links, forms, and other content for toggling -->
+			            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
+			                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+			                <li class=" smooth-menu active"></li>
+			                    <li class=" smooth-menu"><a href="#about">about</a></li>
+			                    <li class="smooth-menu"><a href="#portfolio">portfolio</a></li>
+			                    <li class="smooth-menu"><a href="#skills">skills</a></li>
+			                    <li class="smooth-menu"><a href="#contact">contact</a></li>
+			                </ul><!--/.nav -->
+			            </div><!-- /.navbar-collapse -->
+			        </div><!--/.container-->
+			    </nav><!--/nav-->
+			    <!-- End Navigation -->
+			</div><!--/.header-area-->
+
+		    <div class="clearfix"></div>
+
+		</header><!-- /.top-area-->
+		<!-- top-area End -->
+	
+		<!--welcome-hero start -->
+		<section id="welcome-hero" class="welcome-hero">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<div class="header-text">
+							<h2>hi <span>,</span> i am <br> michael norton <span>.</span>   </h2>
+							<p>software engineer and technical career coach</p>
+							<a href="assets/download/michael_norton_resume.pdf" download>download resume</a>
+						</div><!--/.header-text-->
+					</div><!--/.col-->
+				</div><!-- /.row-->
+			</div><!-- /.container-->
+
+		</section><!--/.welcome-hero-->
+		<!--welcome-hero end -->
+
+		<!--about start -->
+		<section id="about" class="about">
+			<div class="section-heading text-center">
+				<h2>about me</h2>
+			</div>
+			<div class="container">
+				<div class="about-content">
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="single-about-txt">
+								<h3>
+									Hello there, my name is Michael Norton, I am a full-stack software engineer living in New York City.
+								</h3>
+								<p>
+									Once upon a time I was a visual artist. I have always loved video games so to make a game, I taught myself how to code. I spent four years creating Beraltors, a PC/Mac game released on Steam. I found that I really enjoy programming and wanted to pursue it more. I attended App Academy, an intense bootcamp with a less than 3% acceptance rate. There I learned full-stack web development using; JavaScript, Ruby on Rails, React/Redux and PostgreSQL. I am also interesting in AI and have a Deep Learning specialization from deeplearning.ai. In my free time you can find me, creating things and flipping around on a flying trapeze or trampoline.  
+								</p>
+								<div class="row">
+									<div class="col-sm-4">
+										<div class="single-about-add-info">
+											<h3>phone</h3>
+											<p>321-794-0176</p>
+										</div>
+									</div>
+									<div class="col-sm-4">
+										<div class="single-about-add-info">
+											<h3>email</h3>
+											<p>nortonkmichael@gmail.com</p>
+										</div>
+									</div>
+									
+								</div>
 							</div>
 						</div>
-						<nav>
-							<ul>
-								<li><a href="#about">About</a></li>
-								<li><a href="#projects">Projects</a></li>
-								<li><a href="#skills">Skills</a></li>
-								<li><a href="#contact">Contact</a></li>
-								<li><a href="/assets/docs/Michael_Norton_Resume.pdf" target="_blank">Resume</a></li>
-								<!--<li><a href="#elements">Elements</a></li>-->
-							</ul>
-						</nav>
-					</header>
-
-				<!-- Main -->
-					<div id="main">
-
-						<!-- About -->
-							<article id="about">
-								<h2 class="major">About</h2>
-								<span class="image main" id="headshot"><img src="images/headshot2.jpg" alt="Michael Norton headshot" /></span>
-								<p>Howdy! I'm Michael Norton, a software engineer based out of NYC. I came to software engineering from a background in the Arts where constant exploration and team projects forged me into the person that I am today! As I've walked down the coding path, I've found that my artistic skills and values have become invaluable to the process: planning and exploring the problem before implementation, inspiring and fostering fellow team members in all pursuits, and the value of hard work in combination with creativity to make lasting solutions; These are my values as a collaborator and team member.</p>
-								<p>If I'm not found jabbing away at a keyboard, I can be found training for climbing sessions at the local rock climbing gym, cycling around the city, or playing pickup basketball. I'm also an unabashed nerd that loves getting together with the gang for some tabletop gaming (D&D and Numenera, specifically) and jumping at the chance to play any game of Magic the Gathering I get my hands on (Commander and Modern particularly)!</p>
-							</article>
-
-						<!-- Projects -->
-							<article id="projects">
-								<h2 class="major">Projects</h2>
-							
-								<h3 class="major">Flash Forward</a></h3>
-								<a href="https://flash-forward-app.herokuapp.com/#/" target="_blank">
-									<span class="image main"><img src="images/gifs/flash_forward.gif" alt="Flash Forward homepage" />
-								</a>
-								<p><a href="https://flash-forward-app.herokuapp.com/#/" target="_blank">Flash Forward</a> is a Mountain Project clone that allows users to browse and find rock climbing areas and routes across the US. New routes and areas can be added by users, as well as allowing user commenting, photo sharing, and a route searcher. This project utilizes PostgreSQL and Rails for backend support and React/Redux for frontend support.
-									(<a href="https://github.com/Norton-Design/flash_forward" target="_blank">Repo</a>)
-								</p>
-
-								<h3 class="major">Dungeon Companion</h3>
-								<a href="https://dungeon-companion-app.herokuapp.com/#/" target="_blank">
-									<span class="image main"><img src="images/gifs/dc_create_char.gif" alt="Character creation on Dungeon Companion" />
-								</a>
-								<p><a href="https://dungeon-companion-app.herokuapp.com/#/" target="_blank">Dungeon Companion</a> exists to provide DMs (dungeon masters) with a toolkit to make the gaming more organized (and more enjoyable!). No more will a DM need to keep track of the all of the stats of player characters, monsters, or the general sense of what is happening within combat. Instead, a DM will be freed up from the logistical depths to provide players with a more engaging, robust gaming experience.
-									(<a href="https://github.com/ezraschrage/Dungeon-Companion" target="_blank">Repo</a>)
-								</p>
-
-								<h3 class="major">Card Augury</h3>
-								<a href="https://norton-design.github.io/cardAugury/" target="_blank">
-									<span class="image main"><img src="images/gifs/ca_search.gif" alt="Searching for a card on Card Augury" />
-								</a>
-								<p><a href="https://norton-design.github.io/cardAugury/" target="_blank">Card Augury</a> is a data visualization project based on Magic: The Gathering, a trading card game. The game itself is now widely considered to be the world's most complex real-world game (as opposed to games that exist theoretically for game theory research). Card Augury is a project dedicated to breaking down raw data about the game (card types, sets, and secondary market prices eventually, etc.) to assist the user to predict future trends within the development of the game, and make the most out of our card purchases.
-									(<a href="https://github.com/Norton-Design/cardAugury" target="_blank">Repo</a>)
-								</p>
-							</article>
-
-						<!-- Skills -->
-							<article id="skills">
-								<h2 class="major">Skills</h2>
-								<!-- <span class="image main"><img src="images/pic03.jpg" alt="" /></span> -->
-								<div class="skills-box">
-									<i class="devicon-react-original-wordmark colored"></i>
-									<i class="devicon-javascript-plain colored"></i>
-									<i class="devicon-python-plain-wordmark colored"></i>
-									<i class="devicon-nodejs-plain-wordmark colored"></i>
-									<i class="devicon-jquery-plain-wordmark colored"></i>
-									<i class="devicon-express-original-wordmark"></i>
-									<i class="devicon-sass-original colored"></i>
-									<i class="devicon-css3-plain-wordmark colored"></i>
-									<i class="devicon-html5-plain-wordmark colored"></i>
-									<i class="devicon-rails-plain-wordmark colored"></i>
-									<i class="devicon-ruby-plain-wordmark colored"></i>
-									<i class="devicon-postgresql-plain-wordmark colored"></i>
-									<i class="devicon-mongodb-plain-wordmark colored"></i>
-									<i class="devicon-git-plain-wordmark colored"></i>
-									<i class="devicon-heroku-plain-wordmark colored"></i>
-									<i class="devicon-webpack-plain-wordmark colored"></i>
-									<i class="devicon-amazonwebservices-plain-wordmark colored"></i>
-								</div>
-
-								<p>I have proficiencies and experince building in all of the following: React, JavaScript, Python, Node.js, jQuery, Express, Sass, CSS3, HTML5, Rails, Ruby, PostgreSQL, MongoDB, Git, Heroku, Webpack, Amazon Web Services.</p>
-								<p>I learn quickly, and can hit the ground running on anything your project requires!</p>
-							</article>
-
-						<!-- Contact -->
-							<article id="contact">
-								<div>
-								<h2 class="major">Contact Me</h2>
-								<!-- <form method="post" action="https://formspree.io/xoqkqyyd">
-									<div class="fields">
-										<div class="field half">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
-										</div>
-										<div class="field half">
-											<label for="email">Email</label>
-											<input type="text" name="_replyto" id="email" />
-										</div>
-										<div class="field">
-											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="4"></textarea>
-										</div>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
-										<li><input type="reset" value="Reset" /></li>
-									</ul>
-								</form> -->
-								<div>
-									<h3>Michael Norton</h3>
-									<h4>Software Engineer</h4>
-								</div>
-
-								<div>
-									<p>Phone:</p>
-									<p>321-794-0176</p>
-								</div>
-
-								<div>
-									<p>Email:</p>
-									<p id="contact-page-end">nortonkmichael@gmail.com</p>
-								</div>
-								</div>
-								
-								<div class="icons-div">
-									<ul class="icons">
-										<li><a href="https://www.linkedin.com/in/michael-norton-5b5559199/" class="icon brands fa-linkedin"><span
-													class="label">LinkedIn</span></a></li>
-										<li><a href="https://github.com/Norton-Design" class="icon brands fa-github"><span class="label">GitHub</span></a>
-										</li>
-										<li><a href="https://angel.co/u/michael-norton-17" class="icon brands fa-angellist"><span
-													class="label">AngelList</span></a></li>
-										<li><a href="/assets/docs/Michael_Norton_Resume.pdf" class="icon brands" target="_blank"><i
-													class="far fa-file"></i><span class="label">Resume</span></a></li>
-									</ul>
-								</div>
-
-							</article>
-
-						<!-- Elements -->
-							<article id="elements">
-								<h2 class="major">Elements</h2>
-
-								<section>
-									<h3 class="major">Text</h3>
-									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-									<hr />
-									<h2>Heading Level 2</h2>
-									<h3>Heading Level 3</h3>
-									<h4>Heading Level 4</h4>
-									<h5>Heading Level 5</h5>
-									<h6>Heading Level 6</h6>
-									<hr />
-									<h4>Blockquote</h4>
-									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-									<h4>Preformatted</h4>
-									<pre><code>i = 0;
-
-while (!deck.isInOrder()) {
-    print 'Iteration ' + i;
-    deck.shuffle();
-    i++;
-}
-
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-								</section>
-
-								<section>
-									<h3 class="major">Lists</h3>
-
-									<h4>Unordered</h4>
+						<div class="col-sm-offset-1 col-sm-5">
+							<div class="single-about-img">
+								<img src="assets/images/about/profile_image.jpg" alt="profile_image">
+								<div class="about-list-icon">
 									<ul>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
+										<li>
+											<a href="https://www.linkedin.com/in/michael-norton-software-engineer/">
+												<i  class="fa fa-linkedin" aria-hidden="true"></i>
+											</a>
+										</li><!-- / li -->
+										<li>
+											<a href="https://github.com/Norton-Design">
+												<i  class="fa fa-github" aria-hidden="true"></i>
+											</a>
+											
+										</li><!-- / li -->
+										<li>
+											<a href="https://angel.co/u/michael-norton-software-engineer">
+												<i  class="fa fa-angellist" aria-hidden="true"></i>
+											</a>
+											
+										</li><!-- / li -->
+										
+									</ul><!-- / ul -->
+								</div><!-- /.about-list-icon -->
 
-									<h4>Alternate</h4>
-									<ul class="alt">
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
+							</div>
 
-									<h4>Ordered</h4>
-									<ol>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis viverra.</li>
-										<li>Felis enim feugiat.</li>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis lorem.</li>
-										<li>Felis enim et feugiat.</li>
-									</ol>
-									<h4>Icons</h4>
-									<ul class="icons">
-										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-									</ul>
-
-									<h4>Actions</h4>
-									<ul class="actions">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-								</section>
-
-								<section>
-									<h3 class="major">Table</h3>
-									<h4>Default</h4>
-									<div class="table-wrapper">
-										<table>
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
-
-									<h4>Alternate</h4>
-									<div class="table-wrapper">
-										<table class="alt">
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
-								</section>
-
-								<section>
-									<h3 class="major">Buttons</h3>
-									<ul class="actions">
-										<li><a href="#" class="button primary">Primary</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button">Default</a></li>
-										<li><a href="#" class="button small">Small</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
-										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
-									</ul>
-									<ul class="actions">
-										<li><span class="button primary disabled">Disabled</span></li>
-										<li><span class="button disabled">Disabled</span></li>
-									</ul>
-								</section>
-
-								<section>
-									<h3 class="major">Form</h3>
-									<form method="post" action="#">
-										<div class="fields">
-											<div class="field half">
-												<label for="demo-name">Name</label>
-												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
-											</div>
-											<div class="field half">
-												<label for="demo-email">Email</label>
-												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
-											</div>
-											<div class="field">
-												<label for="demo-category">Category</label>
-												<select name="demo-category" id="demo-category">
-													<option value="">-</option>
-													<option value="1">Manufacturing</option>
-													<option value="1">Shipping</option>
-													<option value="1">Administration</option>
-													<option value="1">Human Resources</option>
-												</select>
-											</div>
-											<div class="field half">
-												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-												<label for="demo-priority-low">Low</label>
-											</div>
-											<div class="field half">
-												<input type="radio" id="demo-priority-high" name="demo-priority">
-												<label for="demo-priority-high">High</label>
-											</div>
-											<div class="field half">
-												<input type="checkbox" id="demo-copy" name="demo-copy">
-												<label for="demo-copy">Email me a copy</label>
-											</div>
-											<div class="field half">
-												<input type="checkbox" id="demo-human" name="demo-human" checked>
-												<label for="demo-human">Not a robot</label>
-											</div>
-											<div class="field">
-												<label for="demo-message">Message</label>
-												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><input type="submit" value="Send Message" class="primary" /></li>
-											<li><input type="reset" value="Reset" /></li>
-										</ul>
-									</form>
-								</section>
-
-							</article>
-
+						</div>
 					</div>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<p class="copyright">&copy; Norton-Design. Design: <a href="https://html5up.net">HTML5 UP</a>. Image: Ghostly International by <a href="http://www.cinaart.com/">Michael Cina</a></p>
-					</footer>
-
+				</div>
 			</div>
+		</section><!--/.about-->
+		<!--about end -->
+		
+		<!--portfolio start -->
+		<section id="portfolio" class="portfolio">
+			<div class="portfolio-details">
+				<div class="section-heading text-center">
+					<h2>portfolio</h2>
+				</div>
+				<div class="container">
+					<div class="portfolio-content">
+						<div class="isotope">
+							<div class="row">
 
-		<!-- BG -->
-			<div id="bg"></div>
+								<div class="col-sm-4">
+									<h2>Disagree</h2>
+									<img src="assets/images/portfolio/disagree.jpg" alt="">
+									<p>Disagree is a clone of Discord, the popular live-chat application. On this app, users can create and delete servers. They can also joins others servers. On servers, they are channels where users can live chat with others. This app uses websockets and Rails' Active-Channel to allow live creation, deletion and editing of both channel messages and direct messages.</p>
+									<h3>Technologies</h3>
+									<p>JavaScript, React/Redux, Ruby on Rails, jQuery, PostgreSQL</p>
+									<div class='links-portfolio'><a href="https://disagree-app.herokuapp.com/#/">Live Link</a> <a href="https://github.com/roryphair/Disagree">Github</a></div>
+								</div><!-- /.col -->
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+								<div class="col-sm-4">
+									<h2>Beraltors</h2>
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/DrBOLHxyenw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									<p>Beraltors is PC/Mac game released on Steam in 2019. Created with Unity3d and written in C#. It features over 20 hours of gameplay, multiplayer, over 70 playable characters, hand-drawn art, multiple difficulties and much more. Being created by a sole person, the game focuses on a holistic approach of madness and sillyness, designed to give the player an unforgetable experience.</p>
+									<h3>Technologies</h3>
+									<p>C#, Unity3d, Steam</p>
+									<div class='links-portfolio'><a href="https://store.steampowered.com/app/662550/Beraltors/">Steam Link</a></div>
+								
+								</div><!-- /.col -->
 
-	</body>
+								<div class="col-sm-4">
+									<h2>World's Toughest Animal</h2>
+									<img src="assets/images/portfolio/animal.gif" alt="">
+									<p>World's Toughest Animal is a browser game made entirely in vanilla JavaScript. It is a strategy game where players create a team of animals with different strengths and weaknesses to fight against an enemy team. Featuring seven unique units, with over 20 different levels to try, three gameplay speeds, fun vaporware aesthetic.</p>
+									<h3>Technologies</h3>
+									<p>JavaScript</p>
+									<div class='links-portfolio'><a href="https://roryphair.github.io/toughAnimal/">Live Link</a> <a href="https://github.com/roryphair/toughAnimal">Github</a></div>
+								</div><!-- /.col -->
+
+
+								<div class="col-sm-4">
+									<h2>Dungeon Companion</h2>
+									<img src="assets/images/portfolio/dungeon.jpg" alt="">
+									<p>Dungeon Companion exists to provide DMs (dungeon masters) with a toolkit to make the gaming more organized (and more enjoyable!). No more will a DM need to keep track of the all of the stats of player characters, monsters, or the general sense of what is happening within combat. Instead, a DM will be freed up from the logistical depths to provide players with a more engaging, robust gaming experience.</p>
+									<h3>Technologies</h3>
+									<p>JavaScript, React/Redux, MongoDB, Express.js, Node.js</p>
+									<div class='links-portfolio'><a href="https://dungeon-companion-app.herokuapp.com/#/">Live Link</a> <a href="https://github.com/ezraschrage/Beyond-Campaign-Manager">Github</a></div>
+								</div><!-- /.col -->
+							</div><!-- /.row -->
+						</div><!--/.isotope-->
+					</div><!--/.gallery-content-->
+				</div><!--/.container-->
+			</div><!--/.portfolio-details-->
+
+		</section><!--/.portfolio-->
+		<!--portfolio end -->
+
+		<!--skills start -->
+		<section id="skills" class="skills">
+				<div class="skill-content">
+					<div class="section-heading text-center">
+						<h2>skills</h2>
+					</div>
+					<div class="container">
+							<div class="col-md-6">
+								<div class="single-skill-content">
+									<div class='individual-skill'><i class="devicon-react-plain colored"></i> <h2>React</h2></div>
+									<div class='individual-skill'><i class="devicon-redux-original colored"></i> <h2>Redux</h2></div>
+									<div class='individual-skill'><i class="devicon-javascript-plain colored"></i> <h2>JavaScript</h2></div>
+									<div class='individual-skill'><i class="devicon-nodejs-plain colored"></i> <h2>Node.js</h2></div>
+									<div class='individual-skill'><i class="devicon-express-original colored"></i> <h2>Express.js</h2></div>
+									<div class='individual-skill'><i class="devicon-python-plain colored"></i> <h2>Python</h2></div>
+									<div class='individual-skill'><i class="devicon-flask-original colored"></i> <h2>Flask</h2></div>
+									<div class='individual-skill'><i class="devicon-ruby-plain colored"></i> <h2>Ruby</h2></div>
+									<div class='individual-skill'><i class="devicon-rails-plain colored"></i> <h2>Rails</h2></div>
+									<div class='individual-skill'><i class="devicon-sass-plain colored"></i> <h2>Sass</h2></div>
+									<div class='individual-skill'><i class="devicon-css3-plain colored"></i> <h2>CSS3</h2></div>
+									<div class='individual-skill'><i class="devicon-html5-plain colored"></i> <h2>HTML5</h2></div>
+									<div class='individual-skill'><i class="devicon-postgresql-plain colored"></i> <h2>PostgreSQL</h2></div>
+									<div class='individual-skill'><i class="devicon-sqlalchemy-plain colored"></i> <h2>SQLAlchemy</h2></div>
+									<div class='individual-skill'><i class="devicon-amazonwebservices-original colored"></i> <h2>Amazon Web Services</h2></div>
+									<div class='individual-skill'><i class="devicon-git-plain colored"></i> <h2>Git</h2></div>
+									<div class='individual-skill'><i class="devicon-jquery-plain colored"></i> <h2>jQuery</h2></div>
+									<div class='individual-skill'><i class="devicon-jest-plain colored"></i> <h2>Jest</h2></div>
+									<div class='individual-skill'><i class="devicon-mocha-plain colored"></i> <h2>Mocha</h2></div>
+									<div class='individual-skill'><i class="devicon-mongodb-plain colored"></i> <h2>MongoDB</h2></div>
+									<div class='individual-skill'><i class="devicon-heroku-plain colored"></i> <h2>Heroku</h2></div>
+									<div class='individual-skill'><i class="devicon-webpack-plain colored"></i> <h2>Webpack</h2></div>
+								</div>
+							</div>
+					</div>	<!-- /.container -->		
+				</div><!-- /.skill-content-->
+
+		</section><!--/.skills-->
+		<!--skills end -->
+
+		<!--contact start -->
+		<section id="contact" class="contact">
+			<div class="section-heading text-center">
+				<h2>contact me</h2>
+			</div>
+			<div class="container">
+				<div class="contact-content">
+					<div class="row contact-middle">
+						<div class="col-md-offset-1 col-md-5 col-sm-6">
+							<div class="single-contact-box">
+								<div class="contact-adress">
+									<div class="contact-add-head">
+										<h3>Michael Norton</h3>
+										<p>Software Engineer</p>
+									</div>
+									<div class="contact-add-info">
+										<div class="single-contact-add-info">
+											<h3>phone</h3>
+											<p>321-794-0176</p>
+										</div>
+										<div class="single-contact-add-info">
+											<h3>email</h3>
+											<p>nortonkmichael@gmail.com</p>
+										</div>
+									</div>
+								</div><!--/.contact-adress-->
+								<div class="hm-foot-icon">
+									<ul>
+										<li><a href="https://www.linkedin.com/in/michael-norton-software-engineer/"><i class="fa fa-linkedin"></i></a></li><!--/li-->
+										<li><a href="https://github.com/Norton-Design"><i class="fa fa-github"></i></a></li><!--/li-->
+										<li><a href="https://angel.co/u/michael-norton-software-engineer"><i class="fa fa-angellist"></i></a></li><!--/li-->
+									</ul><!--/ul-->
+								</div><!--/.hm-foot-icon-->
+							</div><!--/.single-contact-box-->
+						</div><!--/.col-->
+						<div class="reach-me">
+							<h3>Reach out and let's make something together!</h3>
+						</div>
+					</div><!--/.row-->
+				</div><!--/.contact-content-->
+			</div><!--/.container-->
+
+		</section><!--/.contact-->
+		<!--contact end -->
+
+		<!--footer-copyright start-->
+		<footer id="footer-copyright" class="footer-copyright">
+			<div class="container">
+				<div class="hm-footer-copyright text-center">
+					<p>
+						&copy; copyright Michael Norton design and developed by <a href="https://www.themesine.com/">themesine</a>
+					</p><!--/p-->
+				</div><!--/.text-center-->
+			</div><!--/.container-->
+
+			<div id="scroll-Top">
+				<div class="return-to-top">
+					<i class="fa fa-angle-up " id="scroll-top" ></i>
+				</div>
+				
+			</div><!--/.scroll-Top-->
+			
+        </footer><!--/.footer-copyright-->
+		<!--footer-copyright end-->
+		
+		<!-- Include all js compiled plugins (below), or include individual files as needed -->
+
+		<script src="assets/js/jquery.js"></script>
+        
+        <!--modernizr.min.js-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+		
+		<!--bootstrap.min.js-->
+        <script src="assets/js/bootstrap.min.js"></script>
+		
+		<!-- bootsnav js -->
+		<script src="assets/js/bootsnav.js"></script>
+		
+		<!-- jquery.sticky.js -->
+		<script src="assets/js/jquery.sticky.js"></script>
+		
+		<!-- for progress bar start-->
+
+		<!-- progressbar js -->
+		<script src="assets/js/progressbar.js"></script>
+
+		<!-- appear js -->
+		<script src="assets/js/jquery.appear.js"></script>
+
+		<!-- for progress bar end -->
+
+		<!--owl.carousel.js-->
+        <script src="assets/js/owl.carousel.min.js"></script>
+
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+		
+        
+        <!--Custom JS-->
+        <script src="assets/js/custom.js"></script>
+        
+    </body>
+	
 </html>
